@@ -19,6 +19,7 @@ class App extends Component {
           allows us to add in components, which are separate, self-contained chunks of JSX.
         </p>
         <ExampleComponent />
+        By including <ExampleComponent /> in App.js's JSX, we are able to use the contents of the components. If you copy and paste <ExampleComponent /> so it is listed two times in a row, two GIFs will appear on the page. Try this now.
 
       </div>
     );
